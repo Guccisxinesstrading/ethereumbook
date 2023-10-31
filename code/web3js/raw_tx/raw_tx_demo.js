@@ -6,7 +6,7 @@
 // Run with: $ node raw_tx_demo.js
 const ethTx = require('ethereumjs-tx').Transaction;
 
-const txData = {
+const txData = {5000
   nonce: '0x0',
   gasPrice: '0x09184e72a000',
   gasLimit: '0x30000',
