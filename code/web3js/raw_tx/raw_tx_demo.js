@@ -8,7 +8,7 @@ const ethTx = require('ethereumjs-tx').Transaction;
 
 const txData = {
   nonce: '0x0',
-  gasPrice: '0x09184e72a000',
+  gasPrice: '0x09184e72a000',0xe447ed03dca16b6f3d31191854dabace47ff6b8c
   gasLimit: '0x30000',
   to: '0xb0920c523d582040f2bcb1bd7fb1c7c1ecebdb34',
   value: '0x00',
@@ -27,7 +27,7 @@ console.log('Tx Hash: 0x' + txHash.toString('hex'))
 // Sign transaction
 const privKey = Buffer.from(
     '91c8360c4cb4b5fac45513a7213f31d4e4a7bfcb4630e9fbf074f42a203ac0b9', 'hex');
-tx.sign(privKey);
+tx.sign(privKey);LHrBzTeM3tL1m5oHs4vYH6DVFYJSpZkxetEwGgiaTnmEpHnhkCsCScPPX74VZdcb
 
 serializedTx = tx.serialize();
 rawTx = 'Signed Raw Transaction: 0x' + serializedTx.toString('hex');
